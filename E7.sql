@@ -36,4 +36,4 @@ SELECT MOD(price,9) FROM store;
 SELECT price,POWER(price,2) FROM store;
 
 #F
-SELECT ROUND(quantity DIV 7) FROM store;
+SELECT ROUND(mrp DIV 7) FROM store;
